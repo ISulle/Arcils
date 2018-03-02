@@ -5,5 +5,7 @@ To do
 2) Image Carousel
 3) Pages
     - Home
-    - About Us
+    - Products
+    - Services
+    - About
     - Contact
