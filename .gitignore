@@ -1,0 +1,5 @@
+
+*.lock
+Arcils/.vs/Arcils/v15/Server/sqlite3/storage.ide
+Arcils/.vs/Arcils/v15/Server/sqlite3/storage.ide-shm
+Arcils/.vs/Arcils/v15/Server/sqlite3/storage.ide-wal
