@@ -6,8 +6,6 @@
     
     <section id="hero2" class="hero">
         <div class="inner">
-
-
             <div class="copy">
                 <h1 class="Fixedimg_head">With us you are in good company!</h1>
                 <p>We provide a variety of services from Designing your needs to helping you market and advertise your products by sharing and suggesting great ideas to you!</p>
@@ -22,7 +20,7 @@
             <div class="col samplecol">
                     <div class="card">
                       <div class="card-header text-center">
-                        Featured
+                        Business Card Design
                       </div>
                       <div class="card-block">
                         <h4 class="card-title">Special title treatment</h4>

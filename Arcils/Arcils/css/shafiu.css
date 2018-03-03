@@ -46,12 +46,10 @@ header {
     text-align: center;
     position: relative;
     width: 100%;
-    border: 1px solid red;
 }
 
 .inner {
     min-height: 600px;
-    border: 1px solid green;
     position: relative;
 }
 
@@ -77,7 +75,6 @@ header {
 }
 .Fixedimg_head {
     font-family:Calibri;
-
 }
 
 .samplecol {
