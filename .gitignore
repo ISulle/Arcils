@@ -12,3 +12,6 @@ Arcils/.vs/Arcils/v15/.suo
 *.ide
 *.ide-shm
 *.ide-wal
+*.ide-shm
+*.ide
+*.ide-wal
