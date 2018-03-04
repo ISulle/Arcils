@@ -8,3 +8,7 @@ Arcils/.vs/config/applicationhost.config
 *.ide-shm
 *.ide-wal
 *.config
+Arcils/.vs/Arcils/v15/.suo
+*.ide
+*.ide-shm
+*.ide-wal
