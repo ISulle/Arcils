@@ -9,66 +9,101 @@
             <div class="copy">
                 <h1 class="Fixedimg_head">With us you are in good company!</h1>
                 <p>We provide a variety of services from Designing your needs to helping you market and advertise your products by sharing and suggesting great ideas to you!</p>
-                <button type="button" class="btn btn-outline-light btn-lg">Contact Us</button>
+                
+                <a href="contact.aspx" class="btn btn-outline-light btn-lg">Contact Us</a>
             </div>
         </div>
     </section>
     <br />
 
     <div class="container">
+        <br />
+        <h1 class="text-center">Services we provide</h1>
+        <br />
+        
         <div class="row">
-            <div class="col samplecol">
-                    <div class="card">
-                      <div class="card-header text-center">
-                        Business Card Design
-                      </div>
-                      <div class="card-block">
-                        <h4 class="card-title">Special title treatment</h4>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            <%--business card design--%>
+            <div class="col-md-6 samplecol text-center">
+                    <img class="card-img-top w-25" src="Images/icons/businesscard.png" width="150" alt="Card image cap">
+                    <div class="card border-0">
+                      <div class="card-block text-center">
+                        <h4 class="card-title">Business Card Design</h4>
+                        <p class="card-text">
+                            Business card design . select from a variety of samples or request to make a custom business card for you
+                            you can customize what texture or finish you want for your finished card.
+                        </p>
+                        <a href="#" class="btn btn-primary">Request</a>
+                        <a href="#" class="btn btn-primary">learn More</a>
                       </div>
                     </div>
+                <div class="dropdown-divider"></div>
             </div>
-            <div class="col samplecol">
-                    <div class="card">
-                      <div class="card-header text-center">
-                        Featured
-                      </div>
-                      <div class="card-block ">
-                        <h4 class="card-title">Special title treatment</h4>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <%--magazine design and brouchure--%>
+            <div class="col-md-6 samplecol text-center">
+                    <img class="card-img-top w-25" src="Images/icons/magazine1.png" width="150" alt="Card image cap">
+                    <div class="card border-0">
+                      <div class="card-block text-center">
+                        <h4 class="card-title">Magazine / Brouchure Design</h4>
+                        <p class="card-text">
+                            Are you looking to create a magazine or brouchure for your hotel/ resort or any other. 
+                            well we could make it for you from every last detail to how you want it
+                        </p>
+                        <a href="#" class="btn btn-primary">Request</a>
+                        <a href="#" class="btn btn-primary">learn More</a>
                       </div>
                     </div>
+                    <div class="dropdown-divider"></div>
             </div>
         </div>
+
         <div class="row">
-            <div class="col samplecol">
-                    <div class="card">
-                      <div class="card-header text-center">
-                        Featured
-                      </div>
-                      <div class="card-block">
-                        <h4 class="card-title">Special title treatment</h4>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            <%--Customized service--%>
+            <div class="col-md-6 samplecol text-center">
+                    <img class="card-img-top w-25" src="Images/icons/gears.png" width="150" alt="Card image cap">
+                    <div class="card border-0">
+                      <div class="card-block text-center">
+                        <h4 class="card-title">Customized Service</h4>
+                        <p class="card-text">
+                            Are you looking to create a magazine or brouchure for your hotel/ resort or any other. 
+                            well we could make it for you from every last detail to how you want it
+                        </p>
+                        <a href="#" class="btn btn-primary">Request</a>
+                        <a href="#" class="btn btn-primary">learn More</a>
                       </div>
                     </div>
+                    <div class="dropdown-divider"></div>
             </div>
-            <div class="col samplecol">
-                <div class="card">
-                      <div class="card-header text-center">
-                        Featured
+            <%--partnership program--%>
+           <div class="col-md-6 samplecol text-center">
+                    <img class="card-img-top w-25" src="Images/icons/partner.png" width="150" alt="Card image cap">
+                    <div class="card border-0">
+                      <div class="card-block text-center">
+                        <h4 class="card-title">Magazine / Brouchure Design</h4>
+                        <p class="card-text">
+                            Are you looking to create a magazine or brouchure for your hotel/ resort or any other. 
+                            well we could make it for you from every last detail to how you want it
+                        </p>
+                        <a href="#" class="btn btn-primary">Request</a>
+                        <a href="#" class="btn btn-primary">learn More</a>
                       </div>
-                      <div class="card-block">
-                        <h4 class="card-title">Special title treatment</h4>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
             </div>
+
         </div>
     </div>
-    
+
+    <section id="hero1" class="hero">
+        <div class="inner">
+            <div class="copy">
+                <h1 class="Fixedimg_head">With us you are in good company!</h1>
+                <p>We provide a variety of services from Designing your needs to helping you market and advertise your products by sharing and suggesting great ideas to you!</p>
+                
+                <a href="contact.aspx" class="btn btn-outline-light btn-lg">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
 </asp:Content>
 
