@@ -41,6 +41,12 @@ header {
     background-position: center center;
     background-attachment: fixed;
 }
+#hero3 {
+    background: url(../Images/abstract.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
 
 .hero, .content {
     text-align: center;
@@ -60,6 +66,7 @@ header {
 
 .copy {
     position: absolute;
+    border:2px solid red;
     top: 50%;
     height: 10em;
     margin-top: -5em;
@@ -83,3 +90,4 @@ header {
 .card-block {
     padding:10px;
 }
+
