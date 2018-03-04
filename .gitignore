@@ -13,3 +13,6 @@ Arcils/.vs/Arcils/v15/.suo
 *.ide-shm
 *.ide-wal
 *.ide
+*.ide
+*.ide-shm
+*.ide-wal
