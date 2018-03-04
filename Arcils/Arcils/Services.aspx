@@ -93,6 +93,17 @@
 
         </div>
     </div>
-    
+
+    <section id="hero1" class="hero">
+        <div class="inner">
+            <div class="copy">
+                <h1 class="Fixedimg_head">With us you are in good company!</h1>
+                <p>We provide a variety of services from Designing your needs to helping you market and advertise your products by sharing and suggesting great ideas to you!</p>
+                
+                <a href="contact.aspx" class="btn btn-outline-light btn-lg">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
 </asp:Content>
 
