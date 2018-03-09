@@ -9,3 +9,9 @@ Arcils/.vs/config/applicationhost.config
 *.ide-wal
 *.config
 *.ide
+*.ide-shm
+*.ide-wal
+*.ide-shm
+*.ide
+*.ide-wal
+
