@@ -1,13 +1,4 @@
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-}
-
-carousel-item img{
-    width: 500px;
-    height: 500px;
-}
-
+/* Navbar pos */
 .navbar {
     position: absolute;
     width: 100%;
@@ -15,10 +6,12 @@ carousel-item img{
     text-decoration: none;
 }
 
-
-@media (max-width: 1000px) {
-    .navbar {
-        position: relative;
-        background: #EFF0F1;
-    }
+/* Navbar bg color */
+.opNone{
+  transition: background-color 0.5s ease-out;
+  background-color: rgba(0, 0, 0, 0);
+}
+.opFull{
+  transition: background-color 0.4s ease-in;
+  background-color: rgba(239, 240, 241, 1);
 }
