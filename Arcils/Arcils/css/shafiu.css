@@ -1,1 +1,93 @@
-﻿
+﻿*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.1);
+    font-family: Calibri;
+}
+
+    header a {
+        color: white;
+        background: rgba(0,0,0,0.1);
+        display: inline-block;
+        padding: 0px 30px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-family:Calibri;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+#hero1 {
+    background: url(https://4.bp.blogspot.com/_AQ0vcRxFu0A/S9shDGGyMTI/AAAAAAAAAYk/kn3WTkY2LoQ/s1600/IMG_0714.JPG);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero2 {
+    background:url(../Images/abstract.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#hero3 {
+    background: url(../Images/abstract.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.hero, .content {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.inner {
+    min-height: 600px;
+    position: relative;
+}
+
+.hero .inner {
+    background: rgba(0, 0, 0, 0.65) ;
+}
+
+
+.copy {
+    position: absolute;
+    border:2px solid red;
+    top: 50%;
+    height: 10em;
+    margin-top: -5em;
+    width: 100%;
+}
+
+.hero h1, .hero p {
+    color: #fff;
+}
+
+.content h1, .content p {
+    color: #333;
+}
+.Fixedimg_head {
+    font-family:Calibri;
+}
+
+.samplecol {
+    padding: 10px;
+}
+.card-block {
+    padding:10px;
+}
+

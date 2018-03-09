@@ -7,3 +7,18 @@ carousel-item img{
     width: 500px;
     height: 500px;
 }
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    text-decoration: none;
+}
+
+
+@media (max-width: 1000px) {
+    .navbar {
+        position: relative;
+        background: #EFF0F1;
+    }
+}
