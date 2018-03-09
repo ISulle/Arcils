@@ -28,7 +28,7 @@
             <img src="Images/Logo.png" height="40" width="40"></img>
         </nav>
         <a class="navbar-brand" href="home.aspx">Arcils</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="navChange()" onblur="navBlur()">
+        <button id="navtog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="navChange()" onblur="navBlur()">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -54,14 +54,6 @@
                     <input type="text"  class="form-control" placeholder="Search"/>
                 </div>
             </form>
-            <form class="form-inline">
-  <!-- <div class="input-group">
-    <div class="input-group-prepend">
-      <span class="input-group-text" id="basic-addon1">@</span>
-    </div>
-    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-  </div>
-</form> -->
         </div>
     </nav>
 
