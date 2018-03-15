@@ -1,0 +1,21 @@
+﻿body {
+}
+.bbg {
+    background-color: #0a0a0a;
+}
+.full1 {
+    height: 970px;
+    width: 1920px;
+}
+.full{
+    height:100%;
+    width:100%;
+}
+.aspectwrapper {
+    display: inline-block; /* shrink to fit */
+    width: 100%; /* whatever width you like */
+    height: 100%;
+    position: relative; /* so .content can use position: absolute */
+}
+ .bg {
+}
