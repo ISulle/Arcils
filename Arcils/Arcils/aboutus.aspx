@@ -5,11 +5,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     
          <!-- the out of alignment box and arcils logo !-->
-    <section class="bbg">
-        <div class="inner0 bbdr">
-            <div class="mini">
-                <div class="ctrDIV mini1">
-                    <h1 class="ctrTXT tt2">We design for you</h1>
+    <div class="container-fluid bbg">
+        <div class="row">
+        <div class="col-8" id="noalignbox">
+            <div class="ctrDIV mini1">
+            <h1 class="ctrTXT tt2">We design for you</h1>
                     <p class="ctrTXT tt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget molestie sem. 
                     Suspendisse enim lectus, pellentesque non erat efficitur, ornare molestie sapien. 
                     Praesent rutrum sem sit amet enim pretium, ac congue massa accumsan. Sed sit amet arcu sollicitudin, 
@@ -17,13 +17,18 @@
                     Cras volutpat risus quis erat suscipit, quis venenatis ipsum aliquet. Nam vel odio metus. 
                     Sed at turpis ultrices arcu rhoncus molestie non id urna.</p>
                 </div>
-            </div>
-            <div class="rounded-circle round"><img src="http://localhost:50128/Images/Logo.png" class="c-img"/></div>
         </div>
-       
-    </section>
-        <br />
-          <!-- end of the out of alignment box and arcils logo !-->
+
+
+        <div class="col-4">
+            <div class="ctrDIV">
+                <img src="http://localhost:50128/Images/Logo.png" class="img-fluid c-img"/>
+            </div>
+        </div>
+        </div>
+    </div>
+         <!-- end of the out of alignment box and arcils logo !-->
+
 
 
           <!-- Staff images !-->
@@ -126,16 +131,9 @@
                </div>
               <!--//Staff3&4!-->
 
-    </div>
-
-        <br />
-
-     
+    </div>    
          <!-- End of staff images !-->
 
 
     
 </asp:Content>
-
-
-
