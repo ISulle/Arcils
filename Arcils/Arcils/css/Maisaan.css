@@ -1,6 +1,4 @@
-﻿body {
-}
-.bbg {
+﻿.bbg {
     background-color: #0a0a0a;
 }
 .full1 {
@@ -11,11 +9,133 @@
     height:100%;
     width:100%;
 }
-.aspectwrapper {
-    display: inline-block; /* shrink to fit */
-    width: 100%; /* whatever width you like */
-    height: 100%;
-    position: relative; /* so .content can use position: absolute */
+
+.bbdr {
+    border: 2px solid black;
 }
- .bg {
+.test {
+     border:2px solid red;
+}
+
+.test1 {
+    border: 2px solid blue;
+}
+.c-img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.round {
+    float: right;
+    width: 20%;
+    margin-right: 5%;
+    margin-top: -18%;
+}
+
+.round-ldr {
+    border: 2px solid green;
+    width: 25%;
+    padding-bottom: 25%;
+    margin-left: 4.5%;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.round-ldr1 {
+    border-radius: 50%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.round0 {
+    float: right;
+    border: 2px solid green;
+    width: 50%;
+    padding-bottom: 50%;
+    margin-right: 4.5%;
+}
+
+.round00 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.round1 {
+    float: left;
+    border: 2px solid green;
+    width: 50%;
+    padding-bottom: 50%;
+    margin-left: 4.5%;
+}
+.round11 {
+    width: 50%;
+    margin-right: 4.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.mini {
+    background-color: #212121;
+    width: 70%;
+    min-height: 500px;
+    margin-top: 3.25%;
+    margin-bottom: -125px;
+    margin-left:-2px;
+}
+.micro {
+    background-color: gray;
+    width: 25%;
+    min-height: 450px;
+    margin-top: 100px;
+    margin-bottom: -125px;
+}
+
+.inner0 {
+    min-height: 500px;
+    position: relative;
+}
+
+.ldr{
+    margin-top: 55px;
+}
+
+.ctrTXT {
+    text-align:center;
+}
+.tt2 {
+    color:white;
+}
+.mnr {
+    margin-top: 20px;
+}
+.s2{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.s3 {
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.ctrDIV {
+    margin: 0 auto;
+}
+.mini1{
+    width:70%;
+    padding-top:12.5%;
 }
