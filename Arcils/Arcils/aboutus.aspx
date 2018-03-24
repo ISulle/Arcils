@@ -3,11 +3,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
          <!-- the out of alignment box and arcils logo !-->
-    <div class="container-fluid bbg">
+    <div class="container-fluid bbg mob">
         <div class="row">
-        <div class="col-8 fade-in one" id="noalignbox">
+        <div class="col-8 fade-in one noalignbox">
             <div class="ctrDIV mini1">
             <h1 class="ctrTXT tt2">We design for you</h1>
                     <p class="ctrTXT tt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget molestie sem. 
@@ -20,10 +20,11 @@
         </div>
 
 
-        <div class="col-4">
-            <div class="ctrDIV opzero fade-in two">
+        <div class="col-4 fade-in two opzero ctrVer">
+            <div class="ctrDIV ctrVer ctrMiniVer">
                 <img src="http://localhost:50128/Images/Logo.png" class="img-fluid c-img"/>
-            </div>
+            </div>          
+            
         </div>
         </div>
     </div>
@@ -40,7 +41,7 @@
                 <h1 class="ctrTXT">Hussain Shafiu</h1>
                 <h2 class="ctrTXT">Founder</h2>
                 <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel, <br />
-            consequat at est. Nam vitae sagittis leo, et tincidunt tellus. </p>
+                     consequat at est. Nam vitae sagittis leo, et tincidunt tellus. </p>
             </div>
 
         </div>

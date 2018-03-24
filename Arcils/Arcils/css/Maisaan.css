@@ -1,281 +1,394 @@
 ﻿/*---------------------------------------------------------ANIMATIONS-----------------------------------------------------*/
 
-.fade-in {
-    animation: opac 0.8s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-@keyframes opac {
-    from {
-        opacity: 0
+    .fade-in {
+        animation: opac 0.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
 
-    to {
-        opacity: 1
+    @keyframes opac {
+        from {
+            opacity: 0
+        }
+
+        to {
+            opacity: 1
+        }
     }
-}
 
 
 
-.fade-in.one {
-    -webkit-animation-delay: -0.2s;
-    -moz-animation-delay: -0.2s;
-    animation-delay: -0.2s;
-}
+    .fade-in.one {
+        -webkit-animation-delay: -0.2s;
+        -moz-animation-delay: -0.2s;
+        animation-delay: -0.2s;
+    }
 
-.fade-in.two {
-    -webkit-animation-delay: 0.2s;
-    -moz-animation-delay: 0.2s;
-    animation-delay: 0.2s;
-}
+    .fade-in.two {
+        -webkit-animation-delay: 0.2s;
+        -moz-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+    }
 
-.fade-in.three {
-    -webkit-animation-delay: 0.6s;
-    -moz-animation-delay: 0.6s;
-    animation-delay: 0.6s;
-}
-
-
+    .fade-in.three {
+        -webkit-animation-delay: 0.6s;
+        -moz-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+    }
 
 
-.animate-left {
-    position: relative;
-    animation: animateleft 1s;
-    -webkit-animation-fill-mode: forwards; 
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-.animate-left.oone {
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    animation-delay: 1.4s;
-}
 
-.animate-left.ttwo {
-    -webkit-animation-delay: 1.6s;
-    -moz-animation-delay: 1.6s;
-    animation-delay: 1.6s;
-}
 
-.animate-left.tthree {
-    -webkit-animation-delay: 1.8s;
-    -moz-animation-delay: 1.8s;
-    animation-delay: 1.8s;
-}
-@keyframes animateleft {
-    from {
-        left: -100px;
+    .animate-left {
+        position: relative;
+        animation: animateleft 1s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+
+        .animate-left.oone {
+            -webkit-animation-delay: 1s;
+            -moz-animation-delay: 1s;
+            animation-delay: 1.4s;
+        }
+
+        .animate-left.ttwo {
+            -webkit-animation-delay: 1.6s;
+            -moz-animation-delay: 1.6s;
+            animation-delay: 1.6s;
+        }
+
+        .animate-left.tthree {
+            -webkit-animation-delay: 1.8s;
+            -moz-animation-delay: 1.8s;
+            animation-delay: 1.8s;
+        }
+
+    @keyframes animateleft {
+        from {
+            left: -100px;
+            opacity: 0;
+        }
+
+        to {
+            left: 0;
+            opacity: 1;
+        }
+    }
+
+
+
+    .animate-right {
+        position: relative;
+        animation: animateright 1s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes animateright {
+        from {
+            right: -100px;
+            opacity: 0
+        }
+
+        to {
+            right: 0;
+            opacity: 1
+        }
+    }
+
+    .animate-right.ooone {
+        -webkit-animation-delay: 1.4s;
+        -moz-animation-delay: 1.4s;
+        animation-delay: 1.4s;
+    }
+
+    .animate-right.tttwo {
+        -webkit-animation-delay: 1.6s;
+        -moz-animation-delay: 1.6s;
+        animation-delay: 1.6s;
+    }
+
+    .animate-right.ttthree {
+        -webkit-animation-delay: 1.8s;
+        -moz-animation-delay: 1.8s;
+        animation-delay: 1.8s;
+    }
+
+
+
+    /*---------------------------------------------------------//ANIMATIONS-----------------------------------------------------*/
+
+    
+
+    .opzero {
         opacity: 0;
     }
 
-    to {
-        left: 0;
-        opacity: 1;
+
+    .noalignbox {
+        background-color: #212121;
+        margin-bottom: -55px;
+        min-height: 500px;
+        margin-top: 3.5%;
+    }
+
+    .ctrVer {
+        margin-bottom: -55px;
+        min-height: 500px;
+        margin-top: 3.5%;
+    }
+
+    .mob{
+
+    }
+
+    .bbg {
+        background-color: #0a0a0a;
+    }
+
+    .full1 {
+        height: 970px;
+        width: 1920px;
+    }
+
+    .full {
+        height: 100%;
+        width: 100%;
+    }
+
+    .bbdr {
+        border: 2px solid black;
+    }
+
+    .test {
+        border: 2px solid red;
+    }
+
+    .test1 {
+        border: 2px solid blue;
+    }
+
+    .c-img {
+        max-height: 50%;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .round {
+        float: right;
+        width: 20%;
+        margin-right: 5%;
+        margin-top: -18%;
+    }
+
+    .round-ldr {
+        border: 2px solid green;
+        padding-bottom: 25%;
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .round-ldr1 {
+        border-radius: 50%;
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .round0 {
+        float: right;
+        border: 2px solid green;
+        width: 50%;
+        padding-bottom: 50%;
+        margin-right: 4.5%;
+    }
+
+    .round00 {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .round1 {
+        float: left;
+        border: 2px solid green;
+        width: 50%;
+        padding-bottom: 50%;
+        margin-left: 4.5%;
+    }
+
+    .round11 {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .mini {
+        background-color: #212121;
+        width: 70%;
+        min-height: 500px;
+        margin-top: 3.25%;
+        margin-bottom: -125px;
+        margin-left: -2px;
+    }
+
+    .micro {
+        background-color: gray;
+        width: 25%;
+        min-height: 450px;
+        margin-top: 100px;
+        margin-bottom: -125px;
+    }
+
+    .hgt500 {
+        min-height: 500px;
+    }
+
+    .ldr {
+        margin-top: 65px;
+    }
+
+    .ctrTXT {
+        text-align: center;
+    }
+
+    .tt2 {
+        color: white;
+    }
+
+    .mnr {
+        margin-top: 20px;
+    }
+
+    .s2 {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .s3 {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .ctrDIV {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        position: relative;
+        top: 25%;
+
+    }
+    .ctrMiniVer{
+        margin-top:auto;
+    }
+
+    .mini1 {
+        width: 70%;
+    }
+
+
+
+
+    /*-----------------------------------MEDIA QUERIES---------------------------*/
+@media (min-width: 1400px) {
+    .ctrVer {
+        margin-top:0%;
     }
 }
 
-
-
-.animate-right {
-    position: relative;
-    animation: animateright 1s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-@keyframes animateright {
-    from {
-        right: -100px;
-        opacity: 0
+@media (max-width: 1400px) {
+    .noalignbox {
+        margin-top: 5.5%;
     }
 
-    to {
-        right: 0;
-        opacity: 1
+    .ctrVer {
+        margin-top: 5.5%;
+        min-height: 250px;
+    }
+
+}
+
+@media (max-width: 999px) {
+    .col-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+    .col-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .c-img {
+        max-height: 25%;
+        max-width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .noalignbox {
+        margin-top:0px;
+    }
+    .mob{
+        max-height:1000px;
+    }
+    .ctrVer {
+        margin-top: 0px;
+        min-height: 400px;
+        margin-bottom: 0px;
     }
 }
-.animate-right.ooone {
-    -webkit-animation-delay: 1.4s;
-    -moz-animation-delay: 1.4s;
-    animation-delay: 1.4s;
+
+@media (max-width: 800px) {
+    .ctrVer {
+       min-height: 150px;
+       
+       }
 }
 
-.animate-right.tttwo {
-    -webkit-animation-delay: 1.6s;
-    -moz-animation-delay: 1.6s;
-    animation-delay: 1.6s;
+@media (max-width: 500px) {
+    .ctrVer {
+        margin-top: 5%;
+        min-height: 150px;
+        margin-bottom: 0px;
+    }
+    .ctrDIV {
+        top: 10%;
+    }
+    .ctrMiniVer {
+        margin-top: 5%;
+   }
 }
 
-.animate-right.ttthree {
-    -webkit-animation-delay: 1.8s;
-    -moz-animation-delay: 1.8s;
-    animation-delay: 1.8s;
-}
-
-
-
-/*---------------------------------------------------------//ANIMATIONS-----------------------------------------------------*/
-
-
-
-.opzero{
-    opacity:0;
-}
-
-
-
-
-#noalignbox {
-    background-color: #212121;
-    margin-bottom:-55px;
-    min-height:500px;
-    margin-top:3.5%;
-}
-
-
-
-
-.bbg {
-    background-color: #0a0a0a;
-}
-.full1 {
-    height: 970px;
-    width: 1920px;
-}
-.full{
-    height:100%;
-    width:100%;
-}
-
-.bbdr {
-    border: 2px solid black;
-}
-.test {
-     border:2px solid red;
-}
-
-.test1 {
-    border: 2px solid blue;
-}
-.c-img {
-    max-height: 50%;
-    max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.round {
-    float: right;
-    width: 20%;
-    margin-right: 5%;
-    margin-top: -18%;
-}
-
-.round-ldr {
-    border: 2px solid green;
-    padding-bottom: 25%;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-.round-ldr1 {
-    border-radius: 50%;
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.round0 {
-    float: right;
-    border: 2px solid green;
-    width: 50%;
-    padding-bottom: 50%;
-    margin-right: 4.5%;
-}
-
-.round00 {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.round1 {
-    float: left;
-    border: 2px solid green;
-    width: 50%;
-    padding-bottom: 50%;
-    margin-left: 4.5%;
-}
-.round11 {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.mini {
-    background-color: #212121;
-    width: 70%;
-    min-height: 500px;
-    margin-top: 3.25%;
-    margin-bottom: -125px;
-    margin-left:-2px;
+@media (max-width: 400px) {
+    .ctrVer {
+        margin-top: 5%;
+        min-height: 150px;
+        margin-bottom: 0px;
+    }
+    .ctrDIV {
+        top: 2%;
+    }
 
 }
-.micro {
-    background-color: gray;
-    width: 25%;
-    min-height: 450px;
-    margin-top: 100px;
-    margin-bottom: -125px;
-}
 
-.hgt500 {
-    min-height: 500px;
-}
-
-.ldr{
-    margin-top: 65px;
-}
-
-.ctrTXT {
-    text-align:center;
-}
-.tt2 {
-    color:white;
-}
-.mnr {
-    margin-top: 20px;
-}
-.s2{
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-.s3 {
-    width:75%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-.ctrDIV {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    position: relative;
-    top: 25%;
-}
-.mini1{
-    width:70%;
-
-}
+    /*-----------------------------------MEDIA QUERIES---------------------------*/
