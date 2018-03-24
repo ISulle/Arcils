@@ -1,4 +1,134 @@
-﻿#noalignbox {
+﻿/*---------------------------------------------------------ANIMATIONS-----------------------------------------------------*/
+
+.fade-in {
+    animation: opac 0.8s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+.fade-in.one {
+    -webkit-animation-delay: -0.2s;
+    -moz-animation-delay: -0.2s;
+    animation-delay: -0.2s;
+}
+
+.fade-in.two {
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.fade-in.three {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+
+
+
+.animate-left {
+    position: relative;
+    animation: animateleft 1s;
+    -webkit-animation-fill-mode: forwards; 
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.animate-left.oone {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1.4s;
+}
+
+.animate-left.ttwo {
+    -webkit-animation-delay: 1.6s;
+    -moz-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+}
+
+.animate-left.tthree {
+    -webkit-animation-delay: 1.8s;
+    -moz-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+}
+@keyframes animateleft {
+    from {
+        left: -100px;
+        opacity: 0;
+    }
+
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+
+.animate-right {
+    position: relative;
+    animation: animateright 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animateright {
+    from {
+        right: -100px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+.animate-right.ooone {
+    -webkit-animation-delay: 1.4s;
+    -moz-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+.animate-right.tttwo {
+    -webkit-animation-delay: 1.6s;
+    -moz-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+}
+
+.animate-right.ttthree {
+    -webkit-animation-delay: 1.8s;
+    -moz-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+}
+
+
+
+/*---------------------------------------------------------//ANIMATIONS-----------------------------------------------------*/
+
+
+
+.opzero{
+    opacity:0;
+}
+
+
+
+
+#noalignbox {
     background-color: #212121;
     margin-bottom:-55px;
     min-height:500px;

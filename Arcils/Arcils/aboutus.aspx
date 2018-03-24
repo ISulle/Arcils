@@ -7,7 +7,7 @@
          <!-- the out of alignment box and arcils logo !-->
     <div class="container-fluid bbg">
         <div class="row">
-        <div class="col-8" id="noalignbox">
+        <div class="col-8 fade-in one" id="noalignbox">
             <div class="ctrDIV mini1">
             <h1 class="ctrTXT tt2">We design for you</h1>
                     <p class="ctrTXT tt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget molestie sem. 
@@ -21,7 +21,7 @@
 
 
         <div class="col-4">
-            <div class="ctrDIV">
+            <div class="ctrDIV opzero fade-in two">
                 <img src="http://localhost:50128/Images/Logo.png" class="img-fluid c-img"/>
             </div>
         </div>
@@ -34,7 +34,7 @@
           <!-- Staff images !-->
               <!--Shafiu!-->
     <div class="container container-fluid">
-        <div>
+        <div class="opzero fade-in three">
            <img src="http://localhost:50128/Images/Shafiu.jpg" class="round-ldr1 ldr" alt="Hussain Shafiu - Founder"/>
             <div class="ctrTXT s2">
                 <h1 class="ctrTXT">Hussain Shafiu</h1>
@@ -51,7 +51,7 @@
               <!--Sulle&Maisaan!-->
               <div class="row mnr">
                                 <!--Sulle!-->
-                <div class="col">
+                <div class="col opzero animate-left oone">
                      <img src="http://localhost:50128/Images/Sulle.jpg" class="round-ldr1 round00" alt="Sulhan Saamee"/>
                      <h2 class="ctrTXT">Sulhan Saamee</h2>
                      <div class="s3">
@@ -63,7 +63,7 @@
                                 <!--//Sulle!-->
 
                                 <!--Maisaan!-->
-                <div class="col">
+                <div class="col opzero animate-right ooone">
                      <img src="http://localhost:50128/Images/Maisaan.jpg" class="round-ldr1 round11" alt="Mohamed Maisaan"/>
                      <h2 class="ctrTXT">Mohamed Maisaan</h2>
                      <div class="s3">
@@ -82,7 +82,7 @@
               <!--Staff1&2!-->
                 <div class="row mnr">
                                 <!--Staff1!-->
-                <div class="col">
+                <div class="col opzero animate-left ttwo">
                      <img src="http://localhost:50128/Images/Sulle.jpg" class="round-ldr1 round00" alt="Sulhan Saamee"/>
                      <h2 class="ctrTXT">Sulhan Saamee</h2>
                      <div class="s3">
@@ -92,7 +92,7 @@
                 </div>
                                 <!--//Staff1!-->
                                 <!--Staff2!-->
-                <div class="col">
+                <div class="col opzero animate-right tttwo">
                      <img src="http://localhost:50128/Images/Maisaan.jpg" class="round-ldr1 round11" alt="Mohamed Maisaan"/>
                      <h2 class="ctrTXT">Mohamed Maisaan</h2>
                      <div class="s3">
@@ -109,7 +109,7 @@
               <!--Staff3&4!-->
               <div class="row mnr">
                                 <!--Staff3!-->
-                <div class="col">
+                <div class="col opzero animate-left tthree">
                      <img src="http://localhost:50128/Images/Sulle.jpg" class="round-ldr1 round00" alt="Sulhan Saamee"/>
                      <h2 class="ctrTXT">Sulhan Saamee</h2>
                      <div class="s3">
@@ -119,7 +119,7 @@
                 </div>
                                 <!--//Staff3!-->
                                 <!--Staff4!-->
-                <div class="col">
+                <div class="col opzero animate-right ttthree">
                      <img src="http://localhost:50128/Images/Maisaan.jpg" class="round-ldr1 round11" alt="Mohamed Maisaan"/>
                      <h2 class="ctrTXT">Mohamed Maisaan</h2>
                      <div class="s3">
