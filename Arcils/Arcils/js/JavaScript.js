@@ -22,12 +22,12 @@ function navChange() {
   }
 }
 
-function navBlur() {
-    navToggler.className = "navbar-toggler collapsed";
-    navCollapse.className = "navbar-collapse collapse";
-    $("#navtog").attr("aria-expanded", "false");
-    navDefault();
-}
+//function navBlur() {
+//    navToggler.className = "navbar-toggler collapsed";
+//    navCollapse.className = "navbar-collapse collapse";
+//    $("#navtog").attr("aria-expanded", "false");
+//    navDefault();
+//}
 
 function navDefault() {
   navClass.classList.replace("opFull", "opNone");

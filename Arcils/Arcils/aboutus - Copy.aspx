@@ -10,11 +10,11 @@
         <div class="col-8 fade-in one noalignbox">
             <div class="ctrDIV mini1">
             <h1 class="ctrTXT tt2">We design for you</h1>
-                    <p class="ctrTXT tt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget molestie sem.
-                    Suspendisse enim lectus, pellentesque non erat efficitur, ornare molestie sapien.
-                    Praesent rutrum sem sit amet enim pretium, ac congue massa accumsan. Sed sit amet arcu sollicitudin,
-                    finibus ipsum sed, luctus est. Nullam vitae massa a erat vestibulum pellentesque nec in erat.
-                    Cras volutpat risus quis erat suscipit, quis venenatis ipsum aliquet. Nam vel odio metus.
+                    <p class="ctrTXT tt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget molestie sem. 
+                    Suspendisse enim lectus, pellentesque non erat efficitur, ornare molestie sapien. 
+                    Praesent rutrum sem sit amet enim pretium, ac congue massa accumsan. Sed sit amet arcu sollicitudin, 
+                    finibus ipsum sed, luctus est. Nullam vitae massa a erat vestibulum pellentesque nec in erat. 
+                    Cras volutpat risus quis erat suscipit, quis venenatis ipsum aliquet. Nam vel odio metus. 
                     Sed at turpis ultrices arcu rhoncus molestie non id urna.</p>
                 </div>
         </div>
@@ -22,9 +22,9 @@
 
         <div class="col-4 fade-in two opzero ctrVer">
             <div class="ctrDIV ctrVer ctrMiniVer">
-                <img src="Images/Logo.png" class="img-fluid c-img"/>
-            </div>
-
+                <img src="http://localhost:50128/Images/Logo.png" class="img-fluid c-img"/>
+            </div>          
+            
         </div>
         </div>
     </div>
@@ -56,7 +56,7 @@
                      <img src="http://localhost:50128/Images/Sulle.jpg" class="round-ldr1 round00" alt="Sulhan Saamee"/>
                      <h2 class="ctrTXT">Sulhan Saamee</h2>
                      <div class="s3">
-                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel,
+                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel, 
                          consequat at est. Nam vitae sagittis leo, et tincidunt tellus. </p>
                      </div>
 
@@ -68,7 +68,7 @@
                      <img src="http://localhost:50128/Images/Maisaan.jpg" class="round-ldr1 round11" alt="Mohamed Maisaan"/>
                      <h2 class="ctrTXT">Mohamed Maisaan</h2>
                      <div class="s3">
-                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel,
+                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel, 
                          consequat at est. Nam vitae sagittis leo, et tincidunt tellus. </p>
                      </div>
 
@@ -77,7 +77,7 @@
 
                </div>
               <!--//Sulle&Maisaan!-->
-
+        
 
 
               <!--Staff1&2!-->
@@ -87,7 +87,7 @@
                      <img src="http://localhost:50128/Images/Sulle.jpg" class="round-ldr1 round00" alt="Sulhan Saamee"/>
                      <h2 class="ctrTXT">Sulhan Saamee</h2>
                      <div class="s3">
-                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel,
+                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel, 
                          consequat at est. Nam vitae sagittis leo, et tincidunt tellus. </p>
                      </div>
                 </div>
@@ -97,9 +97,9 @@
                      <img src="http://localhost:50128/Images/Maisaan.jpg" class="round-ldr1 round11" alt="Mohamed Maisaan"/>
                      <h2 class="ctrTXT">Mohamed Maisaan</h2>
                      <div class="s3">
-                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel,
+                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel, 
                          consequat at est. Nam vitae sagittis leo, et tincidunt tellus. </p>
-                     </div>
+                     </div>               
                 </div>
                                 <!--//Staff2!-->
                </div>
@@ -114,7 +114,7 @@
                      <img src="http://localhost:50128/Images/Sulle.jpg" class="round-ldr1 round00" alt="Sulhan Saamee"/>
                      <h2 class="ctrTXT">Sulhan Saamee</h2>
                      <div class="s3">
-                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel,
+                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel, 
                          consequat at est. Nam vitae sagittis leo, et tincidunt tellus. </p>
                      </div>
                 </div>
@@ -124,17 +124,17 @@
                      <img src="http://localhost:50128/Images/Maisaan.jpg" class="round-ldr1 round11" alt="Mohamed Maisaan"/>
                      <h2 class="ctrTXT">Mohamed Maisaan</h2>
                      <div class="s3">
-                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel,
+                     <p class="ctrTXT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus enim, sagittis id luctus vel, 
                          consequat at est. Nam vitae sagittis leo, et tincidunt tellus. </p>
-                     </div>
+                     </div>           
                     </div>
                                 <!--//Staff4!-->
                </div>
               <!--//Staff3&4!-->
 
-    </div>
+    </div>    
          <!-- End of staff images !-->
 
 
-
+    
 </asp:Content>

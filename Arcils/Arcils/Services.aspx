@@ -3,13 +3,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    
+
     <section id="hero2" class="hero">
         <div class="inner">
-            <div class="copy">
+            <div class="copy" style="border: none">
                 <h1 class="Fixedimg_head">With us you are in good company!</h1>
                 <p>We provide a variety of services from Designing your needs to helping you market and advertise your products by sharing and suggesting great ideas to you!</p>
-                
+
                 <a href="contact.aspx" class="btn btn-outline-light btn-lg">Contact Us</a>
             </div>
         </div>
@@ -20,7 +20,7 @@
         <br />
         <h1 class="text-center">Services we provide</h1>
         <br />
-        
+
         <div class="row">
             <%--business card design--%>
             <div class="col-md-6 samplecol text-center">
@@ -46,7 +46,7 @@
                       <div class="card-block text-center">
                         <h4 class="card-title">Magazine / Brouchure Design</h4>
                         <p class="card-text">
-                            Are you looking to create a magazine or brouchure for your hotel/ resort or any other. 
+                            Are you looking to create a magazine or brouchure for your hotel/ resort or any other.
                             well we could make it for you from every last detail to how you want it
                         </p>
                         <a href="#" class="btn btn-primary">Request</a>
@@ -65,7 +65,7 @@
                       <div class="card-block text-center">
                         <h4 class="card-title">Customized Service</h4>
                         <p class="card-text">
-                            Are you looking to create a magazine or brouchure for your hotel/ resort or any other. 
+                            Are you looking to create a magazine or brouchure for your hotel/ resort or any other.
                             well we could make it for you from every last detail to how you want it
                         </p>
                         <a href="#" class="btn btn-primary">Request</a>
@@ -81,7 +81,7 @@
                       <div class="card-block text-center">
                         <h4 class="card-title">Magazine / Brouchure Design</h4>
                         <p class="card-text">
-                            Are you looking to create a magazine or brouchure for your hotel/ resort or any other. 
+                            Are you looking to create a magazine or brouchure for your hotel/ resort or any other.
                             well we could make it for you from every last detail to how you want it
                         </p>
                         <a href="#" class="btn btn-primary">Request</a>
@@ -96,14 +96,13 @@
 
     <section id="hero1" class="hero">
         <div class="inner">
-            <div class="copy">
+            <div class="copy" style="border: none">
                 <h1 class="Fixedimg_head">With us you are in good company!</h1>
                 <p>We provide a variety of services from Designing your needs to helping you market and advertise your products by sharing and suggesting great ideas to you!</p>
-                
+
                 <a href="contact.aspx" class="btn btn-outline-light btn-lg">Contact Us</a>
             </div>
         </div>
     </section>
 
 </asp:Content>
-
