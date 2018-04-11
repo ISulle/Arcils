@@ -1,11 +1,12 @@
 # Arcils
 
 To do
-1) Navbar
-2) Image Carousel
+1) Navbar - COMPLETED (Sulhan)
+2) Image Carousel - COMPLETED (Sulhan) *image scaling issues
 3) Pages
-    - Home
+    - Home - ONGOING (Sulhan)
     - Products
-    - Services
-    - About
+    - Services - COMPLETED (Shafiu)
+    - About - ONGING (Maisaan)
     - Contact
+4) Backend for gallery, data
